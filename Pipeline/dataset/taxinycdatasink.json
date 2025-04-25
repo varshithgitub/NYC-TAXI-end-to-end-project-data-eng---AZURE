@@ -1,0 +1,21 @@
+{
+    "name": "taxinycdatasink",
+    "properties": {
+        "linkedServiceName": {
+            "referenceName": "taxinycdatalakestorage",
+            "type": "LinkedServiceReference"
+        },
+        "annotations": [],
+        "type": "Parquet",
+        "typeProperties": {
+            "location": {
+                "type": "AzureBlobFSLocation",
+                "folderPath": "trip2023",
+                "fileSystem": "bronze"
+            },
+            "compressionCodec": "snappy"
+        },
+        "schema": []
+    },
+    "type": "Microsoft.DataFactory/factories/datasets"
+}

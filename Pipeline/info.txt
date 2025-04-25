@@ -1,0 +1,6 @@
+selected resource name:		taxinycpipeline
+selected resource type:		pipeline
+factory name:			taxinycadf
+factory location:		eastus
+subscription id:		115cbe7a-4097-4d30-ae82-6b5012680cd6
+time of download (UTC):		Fri, 25 Apr 2025 23:41:32 GMT
